@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Sunrise Goods — Minimal shop</title>
+<link rel="stylesheet" href="/assets/styles.css">
+<link rel="icon" href="/assets/logo.png">
+<link rel="alternate" href="/en/" hreflang="en">
+<link rel="alternate" href="/ru/" hreflang="ru">
+<link rel="alternate" href="/et/" hreflang="et">
+<meta name="description" content="Minimalist shop with eco and design-focused products.">
+</head>
+<body>
+<header class="header">
+  <div class="brand"><img src="/assets/logo.svg" alt="logo"> <span>Sunrise Goods</span></div>
+  <nav class="langs">
+    <a href="/en/" class="lang">EN</a>
+    <a href="/ru/" class="lang">RU</a>
+    <a href="/et/" class="lang">ET</a>
+    <a id="cart" href="/en/checkout.html" class="btn">Cart (<span id="cartCount">0</span>)</a>
+  </nav>
+</header>
+<main class="container">
+  <section class="hero">
+    <div class="left">
+      <h1>Minimal modern shop — curated goods</h1>
+      <p class="p">Clean design, conscious products, fast shipping.</p>
+    </div>
+    <div class="right" style="min-width:180px;text-align:right">
+      <div style="background:#fff;padding:12px;border-radius:8px;box-shadow:0 6px 18px rgba(0,0,0,0.05)">
+        <div style="font-weight:700">Fast shipping</div>
+        <div style="font-size:13px;color:#666">Free on orders over €80</div>
+      </div>
+    </div>
+  </section>
+
+  <h2 id="productsTitle" style="margin-top:20px">Products</h2>
+  <section id="grid" class="grid"></section>
+
+  <div class="footer">
+    © <span id="year"></span> Sunrise Goods — Minimal store. 
+  </div>
+</main>
+
+<a class="cart" href="/en/checkout.html">Cart</a>
+<script src="/assets/app.js"></script>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
