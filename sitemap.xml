@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://yourstore.com/</loc></url>
+  <url><loc>https://yourstore.com/index-en.html</loc></url>
+  <url><loc>https://yourstore.com/index-ru.html</loc></url>
+  <url><loc>https://yourstore.com/index-et.html</loc></url>
+  <url><loc>https://yourstore.com/product-1-en.html</loc></url>
+  <url><loc>https://yourstore.com/product-1-ru.html</loc></url>
+  <url><loc>https://yourstore.com/product-1-et.html</loc></url>
+  <url><loc>https://yourstore.com/product-2-en.html</loc></url>
+  <url><loc>https://yourstore.com/product-2-ru.html</loc></url>
+  <url><loc>https://yourstore.com/product-2-et.html</loc></url>
+  <url><loc>https://yourstore.com/product-3-en.html</loc></url>
+  <url><loc>https://yourstore.com/product-3-ru.html</loc></url>
+  <url><loc>https://yourstore.com/product-3-et.html</loc></url>
+  <url><loc>https://yourstore.com/cart.html</loc></url>
+  <url><loc>https://yourstore.com/checkout.html</loc></url>
+</urlset>
