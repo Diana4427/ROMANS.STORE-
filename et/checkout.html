@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="et">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Ostu lõpetamine</title>
+<link rel="stylesheet" href="/assets/styles.css">
+</head>
+<body>
+<header class="header">
+  <div class="brand"><img src="/assets/logo.svg" alt="logo"> <span>Sunrise Goods</span></div>
+  <nav class="langs"><a href="/en/">EN</a> <a href="/ru/">RU</a> <a href="/et/">ET</a></nav>
+</header>
+<main class="container">
+  <h1>Ostu lõpetamine</h1>
+  <section style="background:white;padding:18px;border-radius:10px">
+    <h3>Teie tellimus</h3>
+    <div id="orderList"></div>
+    <div style="margin-top:12px;font-weight:700">Kokku: <span id="orderTotal">€0.00</span></div>
+    <h3 style="margin-top:18px">Tarne andmed</h3>
+    <div class="form-row"><input placeholder="Name" id="nm"></div>
+    <div class="form-row" style="margin-top:8px"><input placeholder="Address" id="addr"></div>
+    <div style="margin-top:12px"><button id="placeOrder" class="btn">Esita tellimus</button></div>
+  </section>
+</main>
+<script src="/assets/app.js"></script>
+</body></html>
